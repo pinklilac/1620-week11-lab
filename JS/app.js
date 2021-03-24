@@ -20,3 +20,11 @@ let todoList = [
 ]
 let completedTodos = []
 
+function todo() {
+    for (obj of todolist) {
+        if (obj.status==='complete') {
+            completedTodos.push(obj);
+        }
+    }
+
+}
