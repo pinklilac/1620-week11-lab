@@ -18,5 +18,5 @@ let todoList = [
     status: "completed"
 }
 ]
-
+let completedTodos = []
 
