@@ -21,10 +21,14 @@ let todoList = [
 let completedTodos = []
 
 function todo() {
-    for (obj of todolist) {
+    for (let obj of todoList) {
         if (obj.status==='complete') {
-            completedTodos.push(obj);
+            completedTodos.push(obj)
         }
     }
-
+    for (let obj of completedTodos) {
+        let {todo}=obj
+        console.log(todo)
+    }
 }
+todo()
